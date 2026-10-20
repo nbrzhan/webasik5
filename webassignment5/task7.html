@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment 5: JavaScript Basics - Task 7: Calculator.">
+  <title>Task 7 - Calculator | Assignment #5</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-task="7">
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-small">Web Technology</span><h2>Assignment #5</h2><p>JavaScript Basics · DOM &amp; Events</p></div>
+      <nav aria-label="Assignment tasks">
+        <div class="nav-group">Part 01 / JavaScript</div>
+        <a class="task-link" href="index.html"><span class="number">00</span><span class="name">First Script</span></a>
+        <a class="task-link" href="task1.html"><span class="number">01</span><span class="name">Variables &amp; Operators</span></a>
+        <div class="nav-group">Part 02 / DOM</div>
+        <a class="task-link" href="task2.html"><span class="number">02</span><span class="name">Changing Content</span></a>
+        <a class="task-link" href="task3.html"><span class="number">03</span><span class="name">Changing Styles</span></a>
+        <a class="task-link" href="task4.html"><span class="number">04</span><span class="name">Creating &amp; Removing</span></a>
+        <div class="nav-group">Part 03 / Events</div>
+        <a class="task-link" href="task5.html"><span class="number">05</span><span class="name">Mouse Events</span></a>
+        <a class="task-link" href="task6.html"><span class="number">06</span><span class="name">Keyboard Events</span></a>
+        <a class="task-link active" href="task7.html" aria-current="page"><span class="number">07</span><span class="name">Calculator</span></a>
+        <div class="nav-group">Part 04 / Mini Project</div>
+        <a class="task-link" href="task8.html"><span class="number">08</span><span class="name">To-Do List</span></a>
+      </nav>
+      <div class="sidebar-bottom"><strong>Nurzhan Bakirov</strong><span>Software Engineering · SE-2524</span></div>
+    </aside>
+    <main class="main">
+      <div class="main-inner">
+        <header class="topline"><span class="crumbs">Astana IT University / Front-End</span><span class="course">JavaScript Basics</span></header>
+        <section class="intro">
+          <span class="eyebrow">Task 07 / Part 3 · Events</span>
+          <h1>Calculator</h1>
+          <p>Perform the four basic arithmetic operations with two values.</p>
+        </section>
+        <section class="workspace" aria-labelledby="demo-title">
+          <div class="workspace-head"><h3 id="demo-title">Basic calculator</h3><span class="pill">4 operations</span></div>
+          <div class="calculator-fields"><div><label class="label" for="first-number">First number</label><input class="field" type="number" id="first-number" step="any" placeholder="e.g. 12"></div><div><label class="label" for="second-number">Second number</label><input class="field" type="number" id="second-number" step="any" placeholder="e.g. 4"></div></div>
+<div class="calc-operations" aria-label="Calculator operations"><button class="btn" type="button" data-operation="add" aria-label="Addition">+</button><button class="btn" type="button" data-operation="subtract" aria-label="Subtraction">−</button><button class="btn" type="button" data-operation="multiply" aria-label="Multiplication">×</button><button class="btn" type="button" data-operation="divide" aria-label="Division">÷</button></div>
+<div class="result-panel" aria-live="polite"><span>Calculation result</span><strong id="calculator-result">Enter numbers and select an operation.</strong></div>
+          <p class="note">Enter two numbers and choose the operation. Division by zero is handled.</p>
+        </section>
+        <section class="requirements"><h3>Task requirement</h3><p>Provide a calculator for addition, subtraction, multiplication and division.</p></section>
+        <footer class="page-foot"><span>© 2026 · Assignment #5 · Nurzhan Bakirov</span><a href="task8.html">Next: Task 8 →</a></footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
